@@ -1,0 +1,150 @@
+*{
+    border:0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align:center;
+}
+
+.box{
+    height:400px;
+    width:450px;
+    background-image: linear-gradient( rgb(45, 155, 188),white);
+    padding-top: 7px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    height:45px;
+    width:100%;
+}
+.j{
+    border-radius: 10px;
+    border-color: azure;
+    text-align: center;
+}
+
+button{
+    height:40px;
+    width:90px;
+    border-radius: 10px;
+    margin-top: -30px;
+    border: 2px solid black;
+    
+}
+.bttn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color:rgb(25, 84, 116);
+}
+.j:hover{
+    background-color:honeydew;
+}
+.loc{
+    text-align:center;
+    font-size: 1.5rem;
+}
+.ttemp{
+    text-align:center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: #e7eaf6;
+}
+.image{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    height: 110px;
+    width:110px;
+}
+.values{
+    display: flex;
+    justify-content:space-evenly;
+}
+.temp{
+    font-size:1.7rem;
+}
+
+.box1{
+    height:250px;
+    width: 600px;
+    border:2px solid black;
+    margin-right: 50px;
+    display: none;
+    background-image: linear-gradient( rgb(45, 155, 188),white);
+   
+}
+.info{
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.inbox1{
+    height:200px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+.inbox1 img{
+    height:30px;
+    width:30px;  
+}
+
+@media(max-width:480px){
+    *{
+        border:0;
+        padding:0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .box{
+        height:500px;
+        width:250px;
+        background-image: linear-gradient( rgb(45, 155, 188),white);
+        padding-top: 7px;
+    }
+    .temp{
+        font-size:1.2rem;
+    }
+    img{
+        height: 70px;
+        width:70px;
+    }
+
+    .inbox1{
+        height:250px;
+        width: 90px;
+        border: 3px solid black;
+        text-align: center;
+        
+    }
+    .inbox1 img{
+        height:30px;
+        width:30px;  
+    }
+    .box1{
+        height:1300px;
+        width: 100px;
+        border:0;
+        margin-right: 50px;
+        background-image: linear-gradient( rgb(45, 155, 188),white);
+       
+    }
+    
+}
